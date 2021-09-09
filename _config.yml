@@ -1,0 +1,25 @@
+#
+# This file contains configuration flags to customize your site
+#
+# Name of your site (The Mind of a Jack of All Trades)
+title: A Class Half Full 
+# Short bio or description (How does somoene who wants to learn every useless talent see the world)
+description: A blog that is about a student at CNU, this is an academic blog, enjoy my offbeat satire blog. Blog.
+
+#
+# !! DON'T EDIT BELOW THIS MESSAGE
+#
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+theme: jekyll-theme-time-machine
